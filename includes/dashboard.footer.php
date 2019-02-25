@@ -28,7 +28,7 @@
             ©
             <script>
                 document.write(new Date().getFullYear())
-            </script>2019,
+            </script>,
             made
             with <i class="material-icons">favorite</i> by
             <a href="" target="_blank">Becho</a> Share skills and services.
