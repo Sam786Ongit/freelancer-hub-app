@@ -3,7 +3,7 @@
         <nav class="float-left">
             <ul>
                 <li>
-                    <a href="/">
+                    <a href="<?php echo ROOT_PATH?>">
                         site
                     </a>
                 </li>

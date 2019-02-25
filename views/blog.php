@@ -26,7 +26,7 @@ $blog_active = true;
                                 <p class="card-category"></p>
                             </div>
                             <div class="card-body">
-                                <?php $res = $my_app->db_operation->getDataFromTable("blogs",[],[],"","ORDER BY id DESC");?>
+                                <?php $res = $my_app->db_operation->getDataFromTable("blogs",['status'],[1],"","ORDER BY id DESC");?>
                                 <?php 
                                    $blogs = $res['data'];
                                 ?>
