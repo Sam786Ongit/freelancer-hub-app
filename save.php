@@ -2,10 +2,6 @@
 
 require 'vendor/autoload.php';
 
-$API_KEY="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";
-$BECHO_EMAIL_ID="samjara786@gmail.com";
-$BECHO_UserName="Becho";
-
 if ($_POST && $_POST['name'] && $_POST['customer_email'] && $_POST['message'])
 {
     $name = $_POST["name"];
