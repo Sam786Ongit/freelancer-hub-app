@@ -42,6 +42,12 @@
                 <p>My Blogs</p>
               </a>
             </li>
+            <li class="nav-item  ">
+              <a class="nav-link" href="<?php echo ROOT_PATH_FOR_VIEWS ?>/dashboard/sendsms.php">
+                <i class="material-icons">message</i>
+                <p>Send Message</p>
+              </a>
+            </li>
             <!--
             <li class="nav-item ">
               <a class="nav-link" href="./typography.html">

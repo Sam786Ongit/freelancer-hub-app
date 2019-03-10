@@ -46,3 +46,7 @@ nav.navbar{
   .btn-form{
     display:inline;
   }
+
+  .uniform-bg{
+    background: #9c27b0;
+  }

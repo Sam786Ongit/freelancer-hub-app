@@ -18,7 +18,7 @@ Authenticate::dontAllowAuthenticatedUser();
             <div class="row my-5">
                 <div class="col-6 offset-3">
                     <div class="card bg-light mb-3" style="min-width: 100%;">
-                        <div class="card-header">Header</div>
+                        <div class="card-header"></div>
                         <form action="<?php echo ROOT_PATH_FOR_ACTIONS ?>/auth/login.php" method="post" >
                         <div class="card-body">
                             <fieldset>
@@ -26,11 +26,11 @@ Authenticate::dontAllowAuthenticatedUser();
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Email address</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                        placeholder="Enter email" name= "email" required>
+                                        placeholder="" name= "email" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder=""
                                         name="password" required>
                                 </div>
                             </fieldset>

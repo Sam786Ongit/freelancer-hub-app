@@ -61,7 +61,7 @@ $blog_active = true;
             </div>
         </div>
     </body>
-
+    <?php require_once(ROOT_PATH.'/includes/dashboard.footer.php') ?>
     <footer>
         <?php require_once(ROOT_PATH.'/includes/footer_script.php')?>
     </footer>
